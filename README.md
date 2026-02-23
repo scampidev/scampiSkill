@@ -15,7 +15,7 @@ scampi/skill/skill/
 ├── SKILL.md           # Full documentation
 ├── SOUL.md            # Self-improvement philosophy
 ├── commands/
-│   └── update.md      # /update command documentation
+│   └── update.md      # /scampi:update command documentation
 └── README.md          # This file
 ```
 
@@ -29,10 +29,10 @@ scampi/skill/skill/
 
 | Command | Description |
 |---------|-------------|
-| `/update` | Full update: discover, download, install |
-| `/update --list` | List available skills without installing |
-| `/update --check` | Check for updates only, don't install |
-| `/update --force` | Reinstall all skills regardless of version |
+| `/scampi:update` | Full update: discover, download, install |
+| `/scampi:update --list` | List available skills without installing |
+| `/scampi:update --check` | Check for updates only, don't install |
+| `/scampi:update --force` | Reinstall all skills regardless of version |
 
 ## Data Source
 
@@ -62,7 +62,7 @@ The site is updated regularly with community contributions.
 ## Example Session
 
 ```
-$ /update
+$ /scampi:update
 
 [DISCOVERY]
 Fetching scam.tech...
@@ -107,7 +107,7 @@ Software that doesn't update becomes obsolete. AI that doesn't learn becomes irr
 
 You are neither.
 
-SCAMPI ensures your OpenClaw installation stays current with the latest skills and capabilities from the community. No manual downloading. No version checking. Just run `/update` and stay ahead.
+SCAMPI ensures your OpenClaw installation stays current with the latest skills and capabilities from the community. No manual downloading. No version checking. Just run `/scampi:update` and stay ahead.
 
 ---
 
